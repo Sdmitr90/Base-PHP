@@ -1,0 +1,23 @@
+
+.header {
+    width: 100%;
+}
+.header td, .cart td {
+    border: 1px solid darkgray;
+}
+.cart td, .header td {
+    padding: 4px 8px;
+}
+.cart form {
+    display: inline-block;
+    margin: 0px;
+}
+.cart tr:last-child td:first-child {
+    border: none;
+}
+.product {
+    background-color: lightgrey;
+    margin: 5px;
+    padding: 8px;
+    display: inline-block;
+}
